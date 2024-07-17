@@ -1,0 +1,130 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1583373834259-46cc92173cb7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+}
+
+
+.LoginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+}
+
+.Login {
+  opacity: 20px;
+  text-align: center;
+  background-color: #4948487a;
+  box-shadow: 30px 30px 15px #000000;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #27a732;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn button {
+  padding: 15px 30px;
+  margin: 0 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.forgot-password {
+padding-bottom:20px;
+  margin-left: 190px;
+}
+
+.forgot-password a {
+  color: #fff;
+  text-decoration: underline;
+  
+}
+.lbl{
+margin-right: 200px;
+color: #000000;
+
+}
+/* sign up */
+.SignupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+}
+
+.Signup {
+  text-align: center;
+  background-color: #4948487a;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn button {
+  padding: 15px 30px;
+  margin: 0 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #ccc;
+}
+
+.forgot-password {
+  margin-top: 20px;
+}
+
+.forgot-password a {
+  color: #fff;
+  text-decoration: underline;
+}
